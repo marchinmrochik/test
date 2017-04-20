@@ -44,7 +44,7 @@ button {
   height: 46px;
   margin-top: 10px;
   margin-bottom: 8px;
-  margin-right: 30px;
+  margin-right: 35px;
   color: white;
   outline: none;
   font-size: 18px;
@@ -175,7 +175,7 @@ button {
 .txt7 {
   color: black;
   font-family: HelveticaNeueCyr-Roman;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   margin-top: 100px;
   text-align: center;
@@ -252,7 +252,9 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px; }
 
 .icons {
   flex-wrap: wrap; }
@@ -262,7 +264,8 @@ button {
   font-weight: 400;
   font-family: HelveticaNeueCyr;
   color: white;
-  padding-top: 28px; }
+  padding-top: 28px;
+  line-height: normal; }
 
 .foot {
   margin-top: 56px; }
@@ -427,7 +430,8 @@ button {
   height: 60px;
   width: 90%;
   padding-top: 10px;
-  margin-top: 70px; }
+  margin-top: 70px;
+  outline: none; }
 
 .txt_quest {
   font-family: HelveticaNeueCyr-Roman;
@@ -474,11 +478,6 @@ button {
 
 .footer .container .row {
   margin-bottom: 100px; }
-
-.separ {
-  display: inline-block;
-  position: absolute;
-  bottom: 67px; }
 
 /*slider */
 .slider {
