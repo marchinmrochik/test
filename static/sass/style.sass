@@ -21,66 +21,7 @@ $mobile2: 768px
 $tablet: 992px
 $desktop: 1200px
 
-
-//.navbar-collapse
-//  text-align: center
-//.navbar
-//  padding-right: 0px
-//  padding-left: 0px
-//  //display: flex
-//  //flex-direction: row
-//  //justify-content: space-between
-//  //align-items: flex-start
-//  margin-bottom: 0px
-
-.navbar-toggle
-  border: 1px solid black
-  margin-top: 13px
-.icon-bar
-  border: 1px solid black
-.navbar
-  margin-bottom: 18px
-  margin-top: 18px
-  background-color: white
-  border: 0px
-.navbar-brand
-  padding: 0px 0px
-  height: 100%
-  margin-right: 40px
-.navbar-collapse
-  text-align: center
-
-
-button
-  border: 0
-  margin: 0
-  padding: 0
-  background: 0
-
-.flex_block
-  .btn_custom
-    background-color: #3498db
-    border-radius: 23px
-    padding: 8px
-    border: 0
-    width: 130px
-    font-family: HelveticaNeueCyr
-    height: 46px
-    margin-top: 10px
-    margin-bottom: 8px
-    margin-right: 35px
-    color: white
-    outline: none
-    font-size: 18px
-    font-weight: 600
-    line-height: 6px
-    &_1
-      @extend .btn_custom
-      background-color: yellow
-      border: 1px solid #c2c2c2
-      color: #010101
-
-
+/*baner*/
 .banner
   background-image: url("../img/bg.png")
   background-size: cover
@@ -256,6 +197,7 @@ button
   text-align: center
   margin-left: 15px
   margin-right: 15px
+  @media (min-width: 768px)
 
 .content
   margin-left: 15px
@@ -277,6 +219,7 @@ button
     font-weight: 400
 
 .icons
+  text-align: center
   margin-top: 70px
   display: flex
   flex-direction: row
@@ -288,6 +231,7 @@ button
 .icons
   @media (min-width: 360px) and (max-width: $tablet)
   flex-wrap: wrap
+  //text-align: center
 
 .txt_icon
   font-size: 14px
@@ -482,7 +426,7 @@ button
   font-weight: 400
   font-size: 24px
   font-family: HelveticaNeueCyr
-  margin-left: 40px
+  margin-left: 30px
 
 .phone
   display: inline-block
@@ -493,7 +437,7 @@ button
   font-weight: 400
   font-size: 24px
   font-family: HelveticaNeueCyr
-  margin-left: 45px
+  margin-left: 40px
   padding-top: 30px
 
 .txt9
@@ -531,36 +475,77 @@ button
   line-height: normal
   margin-top: 47px
 
-//@media #{$format}
-//  .txt
-//    @media (min-width: 360px) and (max-width: $mobile1)
-//      margin-top: 15px
-//      margin-bottom: 10px
-//      font-size: 20px
-//    @media (min-width: $mobile1) and (max-width: $mobile2)
-//      margin-top: 40px
-//      margin-bottom: 20px
-//      font-size: 27px
-//    @media (min-width: $mobile2) and (max-width: $tablet)
-//      margin-top: 55px
-//      margin-bottom: 40px
-//      font-size: 35px
-//    @media (min-width: $tablet) and (max-width: $desktop)
-//      margin-top: 70px
-//      margin-bottom: 50px
-//      font-size: 42px
-//  .txt_0
-//    @media (min-width: 360px) and (max-width: $mobile1)
-//      margin-top: 10px
-//      font-size: 16px
-//    @media (min-width: $mobile1) and (max-width: $mobile2)
-//      margin-top: 20px
-//      font-size: 18px
-//    @media (min-width: $mobile2) and (max-width: $tablet)
-//      margin-top: 30px
-//      font-size: 20px
-//    @media (min-width: $tablet) and (max-width: $desktop)
-//      margin-top: 42px
-//      font-size: 22px
-///*test media*/
+/*header*/
+@media (max-width: 768px)
+  .navbar-header img
+    margin-top: 10px
+  #laterum
+    background-color: white
+  .navbar-toggle
+    margin-top: 20px
+    vertical-align: middle
+    background-color: white
+    border: 3px solid #507299
+  .icon-bar
+    background-color: #3498db
+  #ololo
+    margin-left: 10px
+    button
+      margin-bottom: 5px
+      width: 100%
+      border: 2px solid #507299
+      border-radius: 60px
+      position: relative
+      display: inline-block
+      padding: 10px
+      font-weight: 500
+      color: #3498db
+  button
+    border: 0
+    margin: 0
+    padding: 0
+    background: 0
 
+@media (min-width: 769px)
+  .navbar
+    margin-bottom: 0px
+  .navbar-header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+    margin-bottom: 20px
+    margin-top: 20px
+    a
+      vertical-align: middle
+  #ololo
+    vertical-align: middle
+  .flex_block
+    button
+      background-color: #3498db
+      border-radius: 23px
+      padding: 5px
+      border: 0
+      width: 130px
+      height: 46px
+      margin-top: 10px
+      margin-bottom: 8px
+      color: white
+      outline: none
+      font-size: 19px
+      font-weight: normal
+    margin-left: 20px
+  .flex_block_1 button
+    background-color: yellow
+    border: 1px solid #c2c2c2
+    border-radius: 23px
+    margin-left: 20px
+    padding: 5px
+    width: 130px
+    height: 46px
+    margin-top: 10px
+    margin-bottom: 8px
+    color: #010101
+    outline: none
+    font-size: 19px
+    font-weight: normal
