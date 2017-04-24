@@ -505,35 +505,33 @@
   #ololo {
     vertical-align: middle; }
 
-  .flex_block {
-    margin-left: 20px; }
-    .flex_block button {
-      background-color: #3498db;
-      border-radius: 23px;
-      padding: 5px;
-      border: 0;
-      width: 130px;
-      height: 46px;
-      margin-top: 10px;
-      margin-bottom: 8px;
-      color: white;
-      outline: none;
-      font-size: 19px;
-      font-weight: normal; }
-
-  .flex_block_1 button {
-    background-color: yellow;
-    border: 1px solid #c2c2c2;
+  .flex_block button {
+    background-color: #3498db;
     border-radius: 23px;
-    margin-left: 20px;
     padding: 5px;
+    border: 0;
     width: 130px;
     height: 46px;
     margin-top: 10px;
     margin-bottom: 8px;
-    color: #010101;
+    color: white;
     outline: none;
     font-size: 19px;
-    font-weight: normal; } }
+    font-weight: normal;
+    margin-left: 20px; }
+    .flex_block button:hover {
+      background-color: yellow;
+      border: 1px solid #c2c2c2;
+      border-radius: 23px;
+      margin-left: 20px;
+      padding: 5px;
+      width: 130px;
+      height: 46px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      color: #010101;
+      outline: none;
+      font-size: 19px;
+      font-weight: normal; } }
 
 /*# sourceMappingURL=style.css.map */
